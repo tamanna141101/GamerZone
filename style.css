@@ -1,0 +1,353 @@
+
+
+* {
+    font-family:'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+  
+  
+ 
+  
+  .btn {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff42a5;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+.container{
+    padding: 40px 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav_logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_logo img{
+   
+   height: 70%;
+   padding-top: 10px;
+
+}
+
+.nav-title {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.nav-title span{
+    color: rgb(255, 0, 174);
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+ nav ul li:hover {
+    background-color: rgb(219, 219, 199);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+
+nav li .icon{
+    word-spacing: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* goat styles */
+
+header{
+
+    background-image: url("images/Group\ 14.png") ;                      
+    background-repeat:   no-repeat;
+    background-size: 50% 100%;
+}
+header .header{
+  display: flex;
+  justify-content: space-between;
+  
+
+  
+}
+
+header .text {
+  padding-top: 100px;
+  width: 50%;
+}
+
+header .text h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+header .text h1 span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+ 
+  font-size: 80px;
+  font-weight: 900;
+}
+
+header .text ul {
+  margin-bottom: 20px;
+}
+
+header .text li {
+  color: #635e5e;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+header .text .go-rough-btn {
+  background-color: rgb(106, 227, 248);
+  margin-left: 1.5rem;
+}
+
+header .goat-img {
+  width: 50%;
+  height: 30%;
+}
+
+header .goat-img img {
+  width: 100%;
+}
+
+/* online games*/
+.online-games {
+  text-align: center;
+ 
+}
+
+.online-games h2 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.online-games span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.online-games p {
+  color: #635e5e;
+  font-size: 18px;
+  margin: 15px;
+ 
+}
+
+.online-games .cards {
+ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.online-games .cards{
+  width: 100%;
+}
+
+.online-games .cards img {
+  width: 100%;
+}
+
+.online-games .cards figcaption {
+  color: #635e5e;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.cards-img{
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgb(255, 0, 174);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.overlay i, .overlay p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+}
+
+/* play games */
+.PlayGame {
+  margin-top: 50px;
+  display: flex;
+  gap: 120px;
+}
+
+.PlayGame figure {
+  width: 100%;
+}
+
+.PlayGame img {
+  width: 100%;
+}
+
+.image-two {
+  position: relative;
+  left: 70%;
+  bottom: 20%;
+  width: 50%;
+}
+
+.PlayGame  .text {
+  margin-top: 100px;
+}
+
+.PlayGame  .text h2 {
+   color: rgb(0,0,0);
+  font-size: 40px;
+}
+
+.PlayGame  .text span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.PlayGame  .text p {
+  color: #635e5e;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* game catagories */
+
+
+.game-catagories {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 10px;
+  
+  
+}
+
+.game-catagories h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.game-catagories figure {
+  display: flex;
+  align-items: center;
+ 
+  padding: 5px;
+  border: 2px solid transparent;
+}
+
+.game-catagories figure:hover {
+  border: 2px solid rgb(255, 0, 174);
+  border-radius: 2.5rem;
+  cursor: pointer;
+  color: rgb(255, 0, 174);
+}
+
+/* footer */
+footer {
+  margin-top: 15px;
+  background-color: #0b0223;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+footer .footer-logo {
+  display: flex;
+  padding-top: 70px;
+  margin: auto;
+  gap: 40px;
+  justify-content: space-between;
+}
+footer .logo{
+  width: 50%;
+  margin: auto;
+}
+footer .footer-logo h2{
+  font-size: 40px;
+}
+
+footer .logo span {
+  color: rgb(255, 0, 174);
+
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+footer p {
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
